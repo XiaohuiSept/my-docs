@@ -1,11 +1,5 @@
 # CICD 本期产品需求文档
 
-**文档状态**：Draft（基于架构设计文档整理）  
-**适用版本**：本期 MVP，版本号待确认  
-**编写日期**：2026-09-28  
-**目标读者**：产品、运营、研发、测试、运维和实施团队  
-**事实来源**：`doc/README.md`、`doc/installation.md`、`doc/permissions.md`、`doc/pipeline.md`、`doc/delivery.md`
-
 ## 一、背景与目标
 
 ### 1.1 Roadmap 阶段与版本范围
