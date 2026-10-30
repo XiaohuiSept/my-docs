@@ -5,7 +5,7 @@ flowchart LR
     AR["镜像仓库"] --> IL["实例列表"]
     AR --> IS["实例同步"]
     AR --> VM["版本管理"]
-    AR --> EN["事件通知"]
+    AR --> EN["事件通知（暂不支持）"]
 
     IL --> IA["接入实例"]
     IL --> ID["实例详情"]
@@ -13,15 +13,15 @@ flowchart LR
     ID --> ID2["制品空间"]
     ID --> ID3["制品仓库"]
     ID --> ID4["机器人账户"]
-    ID --> ID5["镜像加速"]
-    ID --> ID6["镜像清理"]
-    ID --> ID7["日志审计"]
+    ID --> ID5["镜像加速（暂不支持）"]
+    ID --> ID6["镜像清理（暂不支持）"]
+    ID --> ID7["日志审计（暂不支持）"]
 
-    IS --> IS1["同步规则"]
-    IS --> IS2["执行记录"]
+    IS --> IS1["同步规则（暂不支持）"]
+    IS --> IS2["执行记录（暂不支持）"]
     VM --> VM1["版本保留"]
     VM --> VM2["版本不可变"]
-    EN --> EN1["Webhook 配置"]
+    EN --> EN1["Webhook 配置（暂不支持）"]
 
     classDef root fill:#1f2937,color:#ffffff,stroke:#111827,stroke-width:2px;
     classDef primary fill:#dbeafe,color:#1e3a8a,stroke:#93c5fd,stroke-width:1.5px;
