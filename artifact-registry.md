@@ -1,4 +1,4 @@
-# 镜像仓库功能优先级规划
+# 镜像仓库（Artifact Registry）产品设计
 
 ```mermaid
 flowchart LR
